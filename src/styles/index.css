@@ -6,7 +6,7 @@
 }
 
 html {
-  line-height: 1.5;
+  line-height: 1.3;
   background: rgb(17, 16, 16);
   background: linear-gradient(90deg, rgb(17, 16, 16) 0%, rgb(18, 18, 18) 100%);
 }
@@ -15,7 +15,8 @@ body {
   margin: 0 auto;
   color: #fff;
   line-height: inherit;
-  max-width: 90%;
+  max-width: 80%;
+  font-size: 0.8rem;
 }
 
 header {
@@ -27,20 +28,55 @@ header {
   margin: 0;
   padding: 0;
   width: 75%;
-  font-size: 1.2rem;
+  font-size: 1rem;
   align-self: center;
   text-transform: uppercase;
   letter-spacing: 1px;
+  padding-right: 0.5em;
 }
 
 .header-links {
   margin: 0;
   padding: 0;
   display: flex;
-  width: 50%;
+  width: 40%;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+.header-links p {
+  padding-right: 0.5em;
+}
+.header-links p:last-of-type {
+  padding-right: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.main-content {
+  font-size: 0.76rem;
+  margin-right: 1em;
+  max-width: 30rem;
+}
+.main-content h2 {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 40% 50%;
+  border-radius: 1em;
+}
+
+.accent-text {
+  color: #9258ff;
 }
 
 /*# sourceMappingURL=index.css.map */
