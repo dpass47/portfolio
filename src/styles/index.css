@@ -2,9 +2,15 @@
 ::before,
 ::after {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Hubot Sans", sans-serif;
 }
 
+@font-face {
+  font-family: "Hubot Sans";
+  src: url("./fonts/Hubot-Sans.woff2") format("woff2 supports variations"), url("./fonts/Hubot-Sans.woff2") format("woff2-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
 html {
   line-height: 1.4;
   background: rgb(17, 16, 16);
@@ -35,7 +41,7 @@ header {
 }
 
 .header-links {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -52,7 +58,7 @@ header {
 }
 
 .main-content {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-right: 1em;
   max-width: 30rem;
 }
@@ -75,6 +81,39 @@ img {
 
 .accent-text {
   color: #9258ff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.github-link,
+.linkedin-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 0.75rem;
+  width: 100px;
+}
+
+.github-link {
+  margin-right: 2em;
+  border-radius: 0.5em;
+  background: #9258ff;
+}
+.github-link p {
+  margin-left: 0.3em;
+}
+
+.linkedin-link {
+  border-radius: 0.5em;
+  background: #9258ff;
+}
+.linkedin-link p {
+  margin-left: 0.3em;
 }
 
 .projects-header {
