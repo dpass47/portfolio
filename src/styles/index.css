@@ -21,44 +21,38 @@ body {
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .header-name {
-  margin: 0;
-  padding: 0;
-  width: 75%;
-  font-size: 1rem;
+  margin: 1em 0 0 0;
+  padding: 0 0.5em 0 0;
   align-self: center;
   text-transform: uppercase;
+  font-size: 1rem;
   letter-spacing: 1px;
-  padding-right: 0.5em;
 }
 
 .header-links {
-  margin: 0;
+  font-size: 1rem;
+  margin: 0 auto;
   padding: 0;
   display: flex;
-  width: 40%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   cursor: pointer;
-}
-.header-links p {
-  padding-right: 0.5em;
-}
-.header-links p:last-of-type {
-  padding-right: 0;
+  width: 80%;
 }
 
-main {
+.main {
   display: flex;
   justify-content: center;
-  margin-top: 2em;
+  flex-direction: column-reverse;
 }
 
 .main-content {
-  font-size: 0.76rem;
+  font-size: 1rem;
   margin-right: 1em;
   max-width: 30rem;
 }
@@ -70,14 +64,21 @@ main {
 img {
   display: block;
   width: 150px;
-  height: 275px;
-  object-fit: cover;
-  object-position: 50% 50%;
+  align-self: center;
+  margin-bottom: 1em;
   border-radius: 1em;
+}
+
+.main-contact {
+  cursor: pointer;
 }
 
 .accent-text {
   color: #9258ff;
+}
+
+.projects-header {
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
