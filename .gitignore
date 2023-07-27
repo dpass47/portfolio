@@ -21,3 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /.vscode
+src/styles/About.css.map
+src/styles/index.css.map
+src/styles/Header.css.map
