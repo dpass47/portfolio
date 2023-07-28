@@ -15,9 +15,19 @@ const data = [
 		summary:
 			'This was my first app built with ReactJS, and I learned a great amount while building it. It is a dice game where users need to match the number of all ten die in order to win the game. The game tracks roll counts and time it takes to complete for high scores. When a user completes the game, confetti is shown to signify the win.',
 		image: '',
-		languages: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS'],
-		demoLink: '',
-		sourceLink: '',
+		languages: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS'],
+		demoLink: 'https://dpass47.github.io/tenzies-game/',
+		sourceLink: 'https://github.com/dpass47/tenzies-game',
+	},
+	{
+		id: 2,
+		title: 'Portfolio',
+		summary:
+			'This page right here! A responsive website built with ReactJS. The project content is passed in as JSON data for auto-generating components for easy maintenance and additions.',
+		image: '',
+		languages: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
+		demoLink: 'https://devdante.com',
+		sourceLink: 'https://github.com/dpass47/portfolio',
 	},
 ];
 
