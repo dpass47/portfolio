@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faShareFromSquare } from '@fortawesome/free-regular-svg-icons';
 import { v4 as uuid } from 'uuid';
+import '../styles/Projects.css';
 
 function ProjectLanguage({ language }) {
 	return <span className="project-language">{language}</span>;
@@ -34,18 +35,24 @@ function ProjectLinks({ links }) {
 				href={github}
 				rel="noreferrer"
 				target="_blank"
-				className="source-link"
+				className="source-link links"
 			>
-				<FontAwesomeIcon icon={faGithub} />
+				<FontAwesomeIcon
+					icon={faGithub}
+					className="project-links--icons"
+				/>
 				Source code
 			</a>
 			<a
 				href={liveSite}
 				rel="noreferrer"
 				target="_blank"
-				className="demo-link"
+				className="demo-link links"
 			>
-				<FontAwesomeIcon icon={faShareFromSquare} />
+				<FontAwesomeIcon
+					icon={faShareFromSquare}
+					className="project-links--icons"
+				/>
 				Live Demo
 			</a>
 		</div>
@@ -54,7 +61,7 @@ function ProjectLinks({ links }) {
 
 function ProjectCard({ image, title, summary, languages, links }) {
 	return (
-		<div className="project-card">
+		<div className="project-card blurred-box">
 			<img src={image} alt="" className="project-image" />
 			<div className="project-content">
 				<h3>{title}</h3>
