@@ -1,0 +1,43 @@
+.project-image {
+  display: none;
+}
+
+.project-card {
+  background: rgb(34, 32, 32);
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+.project-card h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.project-links {
+  margin-top: 0.5em;
+  padding: 1em 0;
+}
+
+.links {
+  padding: 0.75em 1.5em;
+  margin-right: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-links--icons {
+  margin-right: 0.25em;
+}
+
+.source-link {
+  background: #fff;
+  color: #000;
+}
+
+.demo-link {
+  background: #0000ff;
+  color: white;
+}
+
+/*# sourceMappingURL=Projects.css.map */
