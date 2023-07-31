@@ -5,8 +5,9 @@
 .project-card {
   background: rgb(34, 32, 32);
   padding: 1em;
-  border-radius: 1em;
+  border-radius: 0.5em;
   margin-bottom: 2em;
+  box-shadow: 0 0 0.25em 0.2em rgba(0, 0, 0, 0.1);
 }
 .project-card h3 {
   margin: 0;
@@ -19,7 +20,9 @@
 
 .project-links .links {
   margin-right: 0.5em;
+  margin-top: 5px;
   text-transform: capitalize;
+  font-family: "Hubot Sans", sans-serif;
 }
 
 .project-links .source-link {
@@ -28,17 +31,17 @@
 }
 
 .project-links .source-link:hover {
-  background: #e4e4e4;
+  background: #e8e8e8;
 }
 
-.project-language {
-  padding: 0.5em 1em;
-  font-size: 0.7rem;
+p {
+  margin: 0.5em 0;
+}
+
+.project-languages .chip {
+  margin-top: 5px;
   margin-right: 0.5em;
-  background: #e4e4e4;
-  color: #000;
   border-radius: 0.25em;
-  border: 1px solid #9258ff;
 }
 
 /*# sourceMappingURL=Projects.css.map */
