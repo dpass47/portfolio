@@ -14,30 +14,31 @@
 }
 
 .project-links {
-  margin-top: 0.5em;
   padding: 1em 0;
 }
 
-.links {
-  padding: 0.75em 1.5em;
+.project-links .links {
   margin-right: 0.5em;
-  border-radius: 0.5em;
-  text-decoration: none;
-  cursor: pointer;
+  text-transform: capitalize;
 }
 
-.project-links--icons {
-  margin-right: 0.25em;
-}
-
-.source-link {
+.project-links .source-link {
   background: #fff;
   color: #000;
 }
 
-.demo-link {
-  background: #0000ff;
-  color: white;
+.project-links .source-link:hover {
+  background: #e4e4e4;
+}
+
+.project-language {
+  padding: 0.5em 1em;
+  font-size: 0.7rem;
+  margin-right: 0.5em;
+  background: #e4e4e4;
+  color: #000;
+  border-radius: 0.25em;
+  border: 1px solid #9258ff;
 }
 
 /*# sourceMappingURL=Projects.css.map */
