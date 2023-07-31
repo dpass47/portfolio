@@ -1,10 +1,9 @@
-// import data from '../data';
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faShareFromSquare } from '@fortawesome/free-regular-svg-icons';
 import { v4 as uuid } from 'uuid';
 import '../styles/Projects.css';
+import { Button } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 function ProjectLanguage({ language }) {
 	return <span className="project-language">{language}</span>;
@@ -31,30 +30,28 @@ function ProjectLinks({ links }) {
 
 	return (
 		<div className="project-links">
-			<a
+			<Button
+				variant="contained"
+				size="small"
+				startIcon={<GitHubIcon />}
 				href={github}
 				rel="noreferrer"
 				target="_blank"
 				className="source-link links"
 			>
-				<FontAwesomeIcon
-					icon={faGithub}
-					className="project-links--icons"
-				/>
 				Source code
-			</a>
-			<a
+			</Button>
+			<Button
+				variant="contained"
+				size="small"
+				startIcon={<OpenInNewIcon />}
 				href={liveSite}
 				rel="noreferrer"
 				target="_blank"
 				className="demo-link links"
 			>
-				<FontAwesomeIcon
-					icon={faShareFromSquare}
-					className="project-links--icons"
-				/>
 				Live Demo
-			</a>
+			</Button>
 		</div>
 	);
 }
