@@ -1,17 +1,25 @@
 import React from 'react';
 import { v4 as uuid } from 'uuid';
 import '../styles/Projects.css';
-import { Button } from '@mui/material';
+import { Button, Chip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 function ProjectLanguage({ language }) {
-	return <span className="project-language">{language}</span>;
+	return (
+		<Chip
+			label={language}
+			variant="outlined"
+			color="info"
+			size="small"
+			className="chip"
+		></Chip>
+	);
 }
 
 function ProjectLanguages({ languages }) {
 	return (
-		<div className="projects-languages">
+		<div className="project-languages">
 			{languages.map((language, index) => {
 				return (
 					<ProjectLanguage
