@@ -22,10 +22,10 @@ header {
   align-items: center;
   cursor: pointer;
 }
-.header-links a:first-of-type {
+.header-links p:first-of-type {
   margin-right: 1em;
 }
-.header-links a:hover {
+.header-links p:hover {
   color: #cacaca;
 }
 
