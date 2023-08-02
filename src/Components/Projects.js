@@ -66,7 +66,7 @@ function ProjectLinks({ links }) {
 
 function ProjectCard({ image, title, summary, languages, links }) {
 	return (
-		<div className="project-card blurred-box">
+		<div className="project-card">
 			<img src={image} alt="" className="project-image" />
 			<div className="project-content">
 				<h3>{title}</h3>
@@ -81,7 +81,9 @@ function ProjectCard({ image, title, summary, languages, links }) {
 function Projects({ projects }) {
 	return (
 		<div className="projects-container">
-			<h2 className="projects-title">Projects</h2>
+			<h2 className="projects-title" id="projects">
+				Projects
+			</h2>
 			{projects.map((project) => (
 				<ProjectCard
 					image={project.image}
