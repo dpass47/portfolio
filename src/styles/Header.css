@@ -15,18 +15,18 @@ header {
 
 .header-links {
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 0.5em auto 1em;
   padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
 }
-.header-links p:first-of-type {
+.header-links a:first-of-type {
   margin-right: 1em;
 }
-.header-links p:hover {
-  color: #e8e8e8;
+.header-links a:hover {
+  color: #cacaca;
 }
 
 /*# sourceMappingURL=Header.css.map */

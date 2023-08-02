@@ -12,7 +12,7 @@
   margin: 0 auto 1em;
 }
 
-.contact-links a {
+.contact-link {
   color: #fff;
   text-decoration: none;
   margin: 1em 2em 0 -0.5em;
@@ -21,7 +21,7 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
-.contact-links a:before, .contact-links a:after {
+.contact-link:before, .contact-link:after {
   position: absolute;
   content: "";
   border-bottom: 3px solid #007fff;
@@ -29,25 +29,25 @@
   bottom: 0.3em;
   transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.contact-links a:before {
+.contact-link:before {
   width: 1em;
   transform-origin: left;
 }
-.contact-links a:after {
+.contact-link:after {
   width: 100%;
   left: 1em;
   transform: translateX(110%);
 }
-.contact-links a:hover:before {
+.contact-link:hover:before {
   transform: scaleX(0.3);
 }
-.contact-links a:hover:after {
+.contact-link:hover:after {
   transform: translateX(0);
 }
-.contact-links a:hover {
+.contact-link:hover {
   color: #cacaca;
 }
-.contact-links a a:last-of-type {
+.contact-link:last-of-type {
   margin-right: 0;
 }
 
