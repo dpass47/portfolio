@@ -81,6 +81,7 @@ function ProjectCard({ image, title, summary, languages, links }) {
 function Projects({ projects }) {
 	return (
 		<div className="projects-container">
+			<h2 className="projects-title">Projects</h2>
 			{projects.map((project) => (
 				<ProjectCard
 					image={project.image}

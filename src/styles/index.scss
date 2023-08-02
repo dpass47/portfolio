@@ -24,15 +24,14 @@ html {
 }
 
 body {
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 	color: #fff;
 	line-height: inherit;
-	max-width: 80%;
 	font-size: 1rem;
 }
 
-// Projects
-
-.projects-header {
-	text-align: center;
+.container {
+	max-width: 80%;
+	margin: 0 auto;
 }
