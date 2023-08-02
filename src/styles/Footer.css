@@ -4,15 +4,18 @@
   padding: 2em 0;
   text-align: center;
 }
-.footer h4 {
+.footer h2 {
   margin: 0;
   font-size: 1.5rem;
+  border-bottom: 3px solid #007fff;
+  width: fit-content;
+  margin: 0 auto 1em;
 }
 
 .contact-links a {
   color: #fff;
   text-decoration: none;
-  margin: 1em 3em 0 -0.5em;
+  margin: 1em 2em 0 -0.5em;
   display: inline-block;
   padding: 0.5em 0;
   position: relative;
@@ -21,7 +24,7 @@
 .contact-links a:before, .contact-links a:after {
   position: absolute;
   content: "";
-  border-bottom: 3px solid rgb(0, 99, 228);
+  border-bottom: 3px solid #007fff;
   border-radius: 1em;
   bottom: 0.3em;
   transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
