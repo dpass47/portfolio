@@ -24,7 +24,7 @@ function Header() {
 						to="contact"
 						spy={true}
 						smooth={true}
-						offset={-10}
+						offset={0}
 						duration={500}
 					>
 						Contact
