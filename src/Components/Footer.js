@@ -1,5 +1,4 @@
 import '../styles/Footer.css';
-import resumePdf from '../Deployments/dantepassalacqua-resume.pdf';
 
 function Footer() {
 	return (
@@ -33,7 +32,7 @@ function Footer() {
 					GitHub
 				</a>
 				<a
-					href={resumePdf}
+					href={require('../static/dantepassalacqua-resume.pdf')}
 					className="contact-link"
 					target="_blank"
 					rel="noreferrer"
