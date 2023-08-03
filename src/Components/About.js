@@ -1,5 +1,5 @@
 import danteImage from '../images/dante-01.jpg';
-import '../styles/About.css';
+import '../styles/About.scss';
 
 function About() {
 	return (
