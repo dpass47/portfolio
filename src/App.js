@@ -19,7 +19,7 @@ function App() {
 							links: {
 								github: 'https://github.com/dpass47/celestial-dashboard',
 								liveSite:
-									'https://dpass47.github.io/celestial-dashboard/',
+									'https://celestial-dashboard.devdante.com',
 							},
 							languages: ['HTML5', 'CSS3', 'JavaScript'],
 						},
@@ -65,7 +65,7 @@ function App() {
 							links: {
 								github: 'https://github.com/dpass47/movie-watchlist',
 								liveSite:
-									'https://dpass47.github.io/movie-watchlist',
+									'https://movie-watchlist.devdante.com',
 							},
 							languages: ['HTML5', 'CSS3', 'JavaScript'],
 						},
@@ -76,8 +76,7 @@ function App() {
 								'This is a react project that showcases my skills and interests in a business card format. It also shows the links to my socials to allow for easy access to my profiles for viewing.',
 							links: {
 								github: 'https://github.com/dpass47/digital-business-card',
-								liveSite:
-									'https://dpass47.github.io/digital-business-card',
+								liveSite: 'https://card.devdante.com',
 							},
 							languages: [
 								'HTML5',
