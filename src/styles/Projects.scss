@@ -39,7 +39,7 @@
 }
 
 .project-links .source-link:hover {
-	background: #e8e8e8;
+	background: #cacaca;
 }
 
 p {
@@ -50,4 +50,10 @@ p {
 	margin-top: 5px;
 	margin-right: 0.5em;
 	border-radius: 0.25em;
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 950px) {
 }

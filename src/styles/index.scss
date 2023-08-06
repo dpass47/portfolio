@@ -35,3 +35,9 @@ body {
 	max-width: 80%;
 	margin: 0 auto;
 }
+
+@media (min-width: 950px) {
+	.container {
+		max-width: 50%;
+	}
+}

@@ -30,8 +30,7 @@ function App() {
 								'This was my first app built with ReactJS, and I learned a great amount while building it. It is a dice game where users need to match the number of all ten die in order to win the game. The game tracks roll counts and time it takes to complete for high scores. When a user completes the game, confetti is shown to signify the win.',
 							links: {
 								github: 'https://github.com/dpass47/tenzies-game',
-								liveSite:
-									'https://dpass47.github.io/tenzies-game',
+								liveSite: 'https://tenzies.devdante.com',
 							},
 							languages: [
 								'HTML5',
@@ -46,8 +45,8 @@ function App() {
 							summary:
 								'This page right here! A responsive website built with ReactJS. The project content is passed in as props for auto-generating components for easy maintenance and additions.',
 							links: {
-								github: 'https://github.com/dpass47',
-								liveSite: 'https://github.com/dpass47',
+								github: 'https://github.com/dpass47/portfolio',
+								liveSite: 'https://devdante.com',
 							},
 							languages: [
 								'HTML5',
