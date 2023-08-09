@@ -11,10 +11,16 @@ function About() {
 					Colorado.{' '}
 				</h2>
 				<p>
-					I was a student at an online Frontend Developer course where
-					I spent 8 months learning the fundamentals of frontend web
-					development. I love building simple, beautiful user
-					experiences.
+					I am a currently a certified pharmacy technician looking to
+					make a career change to front-end development. I started
+					building websites in 2022, and absolutely fell in love with
+					the power of developing online applications.
+				</p>
+				<p>
+					I was a student at an online Front-End Developer course
+					where I spent 8 months learning the fundamentals of
+					front-end web development. I love building simple, beautiful
+					user experiences.
 				</p>
 				<p>I am currently looking for my first role as a developer.</p>
 			</div>
