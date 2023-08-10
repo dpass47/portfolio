@@ -6,7 +6,8 @@
 
 .main-content {
 	font-size: 1rem;
-	margin-right: 1em;
+	max-width: 40rem;
+	margin: 0 auto;
 
 	h2 {
 		margin-top: 0;
@@ -14,7 +15,7 @@
 	}
 }
 
-img {
+.main img {
 	display: block;
 	width: 250px;
 	align-self: center;
@@ -30,8 +31,20 @@ img {
 	color: #007fff;
 }
 
-@media (min-width: 800px) {
+// Phone/Tablet
+
+@media (min-width: 1224px) and (max-width: 1824px) {
+	.main-content {
+		max-width: 40rem;
+		margin: 0 auto;
+	}
 }
 
-@media (min-width: 950px) {
+// Desktop/Bigger
+
+@media (min-width: 1824px) {
+	.main-content {
+		max-width: 40rem;
+		margin: 0 auto;
+	}
 }

@@ -36,7 +36,17 @@ body {
 	margin: 0 auto;
 }
 
-@media (min-width: 950px) {
+// Phone/Tablet
+
+@media (min-width: 1224px) {
+	.container {
+		max-width: 75%;
+	}
+}
+
+// Desktop/Bigger
+
+@media (min-width: 1824px) {
 	.container {
 		max-width: 50%;
 	}

@@ -60,8 +60,20 @@
 	}
 }
 
-@media (min-width: 800px) {
+// Phone/Tablet
+
+@media (min-width: 1224px) {
+	.footer {
+		h2 {
+			font-size: 1.75rem;
+		}
+	}
 }
 
-@media (min-width: 950px) {
+// Desktop/Bigger
+
+@media (min-width: 1824px) {
+	.contact-link {
+		font-size: 1.25rem;
+	}
 }

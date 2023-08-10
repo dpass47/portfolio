@@ -23,7 +23,7 @@
 }
 
 .project-links {
-	padding: 1em 0;
+	padding: 1em 0 0 0;
 }
 
 .project-links .links {
@@ -52,8 +52,22 @@ p {
 	border-radius: 0.25em;
 }
 
-@media (min-width: 800px) {
-}
+@media (min-width: 1224px) {
+	.projects-title {
+		font-size: 1.75rem;
+	}
 
-@media (min-width: 950px) {
+	.project-image {
+		display: block;
+		margin-right: 1em;
+		width: 350px;
+		align-self: center;
+		border-radius: 1em;
+		object-fit: cover;
+		box-shadow: 0 0 0.5em 0.3em rgba(0, 0, 0, 0.1);
+	}
+
+	.project-card {
+		display: flex;
+	}
 }

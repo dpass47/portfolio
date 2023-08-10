@@ -31,8 +31,14 @@ header {
 	}
 }
 
-@media (min-width: 800px) {
-}
+// Phone/Tablet
 
-@media (min-width: 950px) {
+@media (min-width: 1224px) {
+	.header-name {
+		font-size: 2rem;
+	}
+
+	.header-links {
+		font-size: 1.25rem;
+	}
 }
