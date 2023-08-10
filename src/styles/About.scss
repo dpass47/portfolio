@@ -33,16 +33,7 @@
 
 // Phone/Tablet
 
-@media (min-width: 1224px) and (max-width: 1824px) {
-	.main-content {
-		max-width: 40rem;
-		margin: 0 auto;
-	}
-}
-
-// Desktop/Bigger
-
-@media (min-width: 1824px) {
+@media (min-width: 1224px) {
 	.main-content {
 		max-width: 40rem;
 		margin: 0 auto;
