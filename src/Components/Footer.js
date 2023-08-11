@@ -32,7 +32,7 @@ function Footer() {
 					GitHub
 				</a>
 				<a
-					href={require('../documents/dantepassalacqua-resume.pdf')}
+					href="https://devdante.com/resume"
 					className="contact-link"
 					target="_blank"
 					rel="noreferrer"
