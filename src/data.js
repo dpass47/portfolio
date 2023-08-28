@@ -7,13 +7,25 @@ import pricingImage from './images/pricing-component.png';
 import passwordImage from './images/password-generator.png';
 import travelImage from './images/travel-journal.png';
 import unitImage from './images/unit-converter.png';
+import calcImage from './images/calculator.png';
 
 const data = [
+	{
+		image: calcImage,
+		title: 'Calculator',
+		summary:
+			"This is a simple calculator that was built using ReactJS. It utilizes a JSON object as state, so it can update the data in the display fields along with background data needed for the calculations. The calculator takes in data from the user's input, and using ternary operators, it will calculate the answer based on the formula that was entered. The app's styles were written with Sass, using CSS grid to display the keypad.",
+		links: {
+			github: 'https://github.com/dpass47/simple-calculator',
+			liveSite: 'https://calculator.devdante.com',
+		},
+		languages: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
+	},
 	{
 		image: travelImage,
 		title: 'Travel Journal',
 		summary:
-			'This react project is a travel journal to log and display all of my trips. It uses props to pass in all necessary data to display all relevant trip information. The use of props allows me to easily create new trip entries and update prior ones if needed. I displayed all the information using CSS flexbox to create a neat showcase of all the trip information.',
+			'This ReactJS project is a travel journal to log and display all of my trips. It uses props to pass in all necessary data to display all relevant trip information. The use of props allows me to easily create new trip entries and update prior ones if needed. I displayed all the information using CSS flexbox to create a neat showcase of all the trip information.',
 		links: {
 			github: 'https://github.com/dpass47/travel-journal',
 			liveSite: 'https://travel-journal.devdante.com',
