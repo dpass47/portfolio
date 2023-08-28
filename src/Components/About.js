@@ -11,10 +11,10 @@ function About() {
 					Colorado.{' '}
 				</h2>
 				<p>
-					I am a currently a certified pharmacy technician looking to
+					I am currently a certified pharmacy technician looking to
 					make a career change to front-end development. I started
-					building websites in 2022, and absolutely fell in love with
-					the power of developing online applications.
+					building websites in 2022, and I absolutely fell in love
+					with the power of developing online applications.
 				</p>
 				<p>
 					I was a student at an online Front-End Developer course
