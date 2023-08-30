@@ -31,14 +31,6 @@ function Footer() {
 				>
 					GitHub
 				</a>
-				<a
-					href="https://devdante.com/resume"
-					className="contact-link"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Resume
-				</a>
 			</div>
 		</div>
 	);

@@ -15,18 +15,40 @@ header {
 
 .header-links {
 	font-size: 1rem;
-	margin: 0.5em auto 1em;
+	margin: 0 auto 0.5em;
+	max-width: 300px;
 	padding: 0;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
 
-	p:first-of-type {
+	p {
 		margin-right: 1em;
 	}
 
-	p:hover {
+	a {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	a:visited {
+		color: #fff;
+	}
+
+	p,
+	a {
+		transition: all 200ms ease-in-out;
+	}
+
+	p:hover,
+	a:hover {
 		color: #cacaca;
+	}
+
+	p:active,
+	a:active {
+		transform: scale(0.95);
 	}
 }
 

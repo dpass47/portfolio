@@ -30,6 +30,13 @@ function Header() {
 						Contact
 					</Link>
 				</p>
+				<a
+					href="https://devdante.com/resume"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Resume
+				</a>
 			</div>
 		</header>
 	);
